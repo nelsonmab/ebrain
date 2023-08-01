@@ -1,0 +1,27 @@
+<?php
+if (!defined('E8R4IN')) {
+    header("Location: /");
+    die("Erro: Página não encontrada<br>");
+}
+
+if (isset($this->param[1])) {
+    $usuario_id = (int) $this->param[1];
+} else {
+    header("Location: " . URLADM . "listar-usuarios");
+    die();
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Processar o envio da mensagem aqui
+}
+
+$usuario = new Usuario();
+$usuario->id = $usuario_id;
+$usuario->fetch();
+
+echo "<h1>Enviar mensagem para " . $usuario->nome . "</h1>";
+echo "<form method='post'>";
+echo "<label for='mensagem'>Mensagem:</label>";
+echo "<textarea name='mensagem' id='mensagem'></textarea>";
+echo "<input type='submit' value='Enviar'>";
+echo "</form>";

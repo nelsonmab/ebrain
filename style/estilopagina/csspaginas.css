@@ -1,0 +1,155 @@
+:root{
+  font-size: 
+  50%;
+
+}
+
+
+#csspaginas{
+background: var (--color-primary)e;
+
+}
+
+
+#csspaginas #container{
+   color: var (--color-text-in-primary);
+}
+
+.logo-container img{
+    height: 12rem;
+
+}
+.logo-container{
+  text-align: center;
+  margin-bottom: 3.2 rem;
+}
+.logo-container h2{
+font-weight: 500;
+font-size: 3.6 rem;
+line-height: 4,6rem;
+margin-top: 0.8 rem;
+
+}
+
+
+.hero-imag{
+  height: 100%;
+
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  margin: 5.2rem 0;
+  align-items: center;
+
+}
+.button-container a{
+  width: 50rem;
+  height: 9.9rem;
+  border-radius: 0.9rem;
+  margin-right: 1.6rem;
+
+  font: 845 2.6 rem Archivo;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align-last: center;
+
+  text-decoration: none;
+  color: var(--color-button-text);
+}
+  
+  
+
+
+.button-container a img{
+  width: 10 rem;
+
+ 
+}
+
+
+.button-container a.voltainicio{
+  background: rgb(2, 105, 11);
+  
+}
+
+.button-container a.acessocartorio {
+  background: rgb(199, 196, 1);
+
+}
+
+.button-container a.protocolar{
+  background: rgb(243, 133, 7);
+  
+
+}
+
+.button-container a.areadpc {
+  background: rgb(216, 212, 6);
+
+
+
+
+}
+
+.button-container a.acesso{
+ background: rgb(207, 204, 2);
+}
+
+
+.button-container a.butao-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-conections img{
+  margin-left: 0.8 rem;
+}
+
+
+@media(min-width:1100px){
+  #csspaginas #container{
+    max-width: 1100px;
+  }
+}
+.containeremp a.dig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#csspaginas #container-segundo{
+   color: var (--color-text-in-primary);
+}
+
+
+
+.button2 a{
+  width: 50rem;
+  height: 9.9rem;
+  border-radius: 0.9rem;
+  margin-right: 1.6rem;
+
+  font: 845 2.6 rem Archivo;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align-last: center;
+
+  text-decoration: none;
+  color: var(--color-button-text);
+}
+.button2 a.acesso1{
+  background: rgb(207, 204, 2);
+ }
+ 
+ button2 a.voltar{
+  background: rgb(207, 204, 2);
+ }
+

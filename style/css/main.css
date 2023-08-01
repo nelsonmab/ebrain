@@ -1,0 +1,53 @@
+#csspaginas{
+background: var (--color-primary)e;
+
+}
+
+
+#csspaginas #container{
+   color: var (--color-text-in-primary);
+}
+
+
+.logo-container img{
+    height: 8rem;
+
+}
+.logo-container{
+  text-align: center;
+  margin-bottom: 3.2 rem;
+}
+.logo-container h2{
+font-weight: 500;
+font-size: arial;
+line-height: 3,6rem;
+margin-top: 0.5rem;
+
+}
+
+
+.hero-imag{
+  height: 100%;
+
+}
+div .datediex {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+  font-style: normal;
+}
+
+input:invalid+span:after {
+    content: '✖';
+    padding-left: 5px;
+}
+
+input:valid+span:after {
+    content: '✓';
+    padding-left: 5px;
+}
