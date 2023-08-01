@@ -1,0 +1,46 @@
+Documentação do Sistema Ebrain
+Introdução
+O Sistema Ebrain é uma aplicação desenvolvida em PHP que oferece um ambiente seguro para usuários acessarem áreas específicas destinadas a cada um deles. O sistema segue a arquitetura MVC (Model-View-Controller) e utiliza o gerenciador de pacotes Composer para facilitar a integração de bibliotecas e dependências externas.
+
+Detalhes do Desenvolvedor
+Nome: Nelson Oliveira de Almeida
+Email: nelsonoliveirank@gmail.com
+Requisitos do Sistema
+Para executar o Sistema Ebrain, é necessário um servidor web com suporte a PHP e um banco de dados compatível (por exemplo, MySQL ou PostgreSQL). Além disso, o Composer deve estar instalado para gerenciar as dependências.
+
+Instalação
+Faça o download dos arquivos do Sistema Ebrain do repositório Git.
+Certifique-se de que o Composer esteja instalado no seu ambiente.
+Crie um banco de dados para o sistema.
+Renomeie o arquivo config-sample.php para config.php e atualize as configurações de conexão ao banco de dados e outros parâmetros relevantes no arquivo.
+Execute o seguinte comando no terminal para instalar as dependências do projeto através do Composer:
+bash
+Copy code
+composer install
+Depois de instalar as dependências, o sistema estará pronto para uso.
+Funcionalidades
+O Sistema Ebrain possui as seguintes funcionalidades:
+
+Tela de Login
+A tela de login permite que os usuários insiram suas credenciais (usuário e senha) para acessar as áreas destinadas a eles.
+
+Áreas de Acesso Restrito
+Após o login bem-sucedido, o usuário terá acesso apenas às áreas permitidas para o seu perfil.
+
+Arquitetura MVC
+O Sistema Ebrain utiliza o padrão de arquitetura Model-View-Controller (MVC) para separar a lógica de negócio, a apresentação e a interação do usuário.
+
+Model: Responsável pelo acesso aos dados do sistema e pelas regras de negócio.
+View: Camada de apresentação que exibe as informações aos usuários.
+Controller: Controla as interações do usuário e coordena o modelo e a visão.
+Email de Informações ao Usuário
+O Sistema Ebrain envia emails de informações importantes para os usuários. Esses emails podem conter detalhes sobre eventos, atualizações de perfil, entre outros.
+
+Endereço de Email para Informações
+O email de informações ao usuário é destinado ao endereço.
+
+Suporte e Contato
+Em caso de dúvidas, problemas ou sugestões relacionadas ao Sistema Ebrain, entre em contato com o desenvolvedor através do email nelsonoliveirank@gmail.com.
+
+Conclusão
+A documentação apresentada acima oferece uma visão geral do Sistema Ebrain, suas funcionalidades e requisitos de instalação. Este sistema foi desenvolvido em PHP, seguindo a arquitetura MVC e utilizando o Composer para gerenciar dependências.
